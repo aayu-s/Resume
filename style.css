@@ -1,0 +1,220 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 0px;
+  padding-left: 100px;
+  width: 90%;
+  color: #868e96;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2e3338;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+section.resume-section {
+  padding-top: 10rem !important;
+  padding-left: 20rem !important;
+  padding-bottom: 5rem !important;
+  min-height: 100vh;
+}
+
+#experience p {
+  width: 100%;
+}
+
+section.resume-section .resume-item .resume-date {
+  width: 18rem;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 90vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.subheading {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+  background-color:#3B5998;
+}
+.social-network a.icoGoogle:hover {
+  background-color:#BD3518;
+}
+.social-network a.icoLinkedin:hover {
+  background-color:#007bb7;
+}
+.social-network a.icoFacebook:hover i,
+.social-network a.icoGoogle:hover i, 
+.social-network a.icoLinkedin:hover i {
+  color:#fff;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+  color:#44BCDD;
+}
+
+.social-circle li a {
+  display:inline-block;
+  position:relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  width: 50px;
+  height: 50px;
+  font-size:20px;
+  background-color: #D3D3D3;
+}
+.social-circle li i {
+  margin:0;
+  line-height:50px;
+  text-align: center;
+}
+
+.social-circle a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
+
+/*Custom SAP ABAP icon  */
+.custom_icon{
+  padding: 70px;
+  background-position: relative;
+  background-size: 100px 50px;
+  background-repeat: no-repeat;
+  background-image: '';
+}
+#sapicon{
+  background-image: url("https://www.freelancinggig.com/blog/wp-content/uploads/2018/09/what-is-SAP-ABAP-Programming.jpg");
+}
+#pythonicon{
+  background-image: url("https://cdn-learn.adafruit.com/assets/assets/000/049/445/medium800/circuitpython_python-logo-master-flat.png?1513729728");
+}
+#ui5icon{
+  background-image: url("https://raw.githubusercontent.com/SAP/ui5-webcomponents/master/docs/images/UI5_logo_wide.png");
+}
+#flaskicon{
+  background-image: url("https://cdn-images-1.medium.com/max/1600/1*0G5zu7CnXdMT9pGbYUTQLQ.png");
+}
+
+.sidenav {
+  padding: 6px 8px 6px 16px;
+  font-weight: bold;
+  font-size: 25px;
+  height: 100%;
+  width:20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F69D18;
+  overflow-x: hidden;
+  padding-top: 10%;
+  padding-left: 4%;
+}
+
+.sidenav a {
+  padding-left: 4%;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  color: #100D08;
+  display: block;
+}
+
+.sidenav img {
+  padding: 10px;
+  width: 150px;
+  border: 10px solid #ddd;
+  background-color: white;
+}
+
+.sidenav img:hover {
+  box-shadow: 0 2px 2px 4px #100D08;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  font-weight: bold;
+}
+
+.main {
+  font-size: 28px;
+  padding: 0px 10px;
+}
+
+.text-primary {
+  color: #F69D18 !important;
+}
+
+a {
+  color: #F69D18;
+}
